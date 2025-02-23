@@ -1,5 +1,4 @@
 public class MataKuliah04 {
-
     String kodeMK;
     String nama;
     int sks;

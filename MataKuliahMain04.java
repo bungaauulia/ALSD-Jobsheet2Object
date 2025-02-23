@@ -14,14 +14,18 @@ public class MataKuliahMain04 {
         mk1.tampilkanInformasi();
         System.out.println();
 
-        MataKuliah04 mk2 = new MataKuliah04("SIB242006", "Basis Data", 
+        MataKuliah04 mk2 = new MataKuliah04(
+        "SIB242006", 
+        "Basis Data", 
         2, 3);
         mk2.tampilkanInformasi();
         mk2.tambahJam(1);
         mk2.tampilkanInformasi();
         System.out.println();
 
-        MataKuliah04 mk3 = new MataKuliah04("SIB242008", "Matematika Lanjut", 
+        MataKuliah04 mk3 = new MataKuliah04(
+        "SIB242008", 
+        "Matematika Lanjut", 
         2, 2);
         mk3.tampilkanInformasi();
         mk3.kurangiJam(3);
